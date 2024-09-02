@@ -1,17 +1,19 @@
 package microservices.admission.logic;
 
-import microservices.admission.domain.Patient;
-import org.springframework.stereotype.Service;
+import microservices.admission.communication.dto.Patient;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 
-@Service
 public class UUIDProvider {
 
-    private final Map<String, String> cache = new HashMap<>();
+    private final Map<String, String> cache;
+
+    public UUIDProvider(Map<String, String> cache) {
+        this.cache = cache;
+    }
 
     void provideUUID(Patient patient) {
         String name = patient.getName();

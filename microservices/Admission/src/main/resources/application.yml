@@ -6,3 +6,6 @@ spring:
     user:
       name: drhousehospital
       password: drhousehospital
+
+diagnoses:
+  url: "http://localhost:9002/patients"

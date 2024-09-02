@@ -1,6 +1,6 @@
 package microservices.admission.endpoint;
 
-import microservices.admission.domain.Patient;
+import microservices.admission.communication.dto.Patient;
 import microservices.admission.logic.Admission;
 import org.springframework.web.bind.annotation.*;
 

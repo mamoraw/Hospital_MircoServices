@@ -1,4 +1,4 @@
-package microservices.admission.domain;
+package microservices.admission.communication.dto;
 
 public class Patient {
 
