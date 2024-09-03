@@ -12,3 +12,9 @@ hospital:
       symptoms: fatigue, appear pale
     - name: anxiety
       symptoms: stress, irritability
+
+spring:
+  security:
+    user:
+      name: drhousehospital
+      password: drhousehospital
