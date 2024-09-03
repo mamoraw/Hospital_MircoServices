@@ -1,0 +1,14 @@
+server:
+  port: 9002
+
+hospital:
+  treatments:
+    url: http://localhost:9003/patients
+
+  diagnoses:
+    - name: allergy
+      symptoms: sneezing, nasal congestion
+    - name: anemia
+      symptoms: fatigue, appear pale
+    - name: anxiety
+      symptoms: stress, irritability
