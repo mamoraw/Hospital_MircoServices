@@ -1,0 +1,7 @@
+hospital:
+  treatments:
+    url: doctor.treatments.test
+
+  diagnoses:
+    - name: test-diagnosis
+      symptoms: test-symptom
