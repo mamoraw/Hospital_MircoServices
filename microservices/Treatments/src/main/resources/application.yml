@@ -1,0 +1,13 @@
+server:
+  port: 9003
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/treatments
+
+hospital:
+  accountancy:
+    url: http://localhost:9004/patients
+  treatments:
+    default: spend one day in the hospital bed
