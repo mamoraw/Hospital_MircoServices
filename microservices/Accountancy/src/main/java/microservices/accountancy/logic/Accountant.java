@@ -14,7 +14,7 @@ public class Accountant {
     private final PatientRepository patientRepository;
     private final double cost;
 
-    public Accountant(InvoiceService invoiceService, PatientRepository patientRepository, @Value("${hospital.cost}") double cost) {
+    public Accountant(InvoiceService invoiceService, PatientRepository patientRepository, @Value("${hospital.accountancy.cost}") double cost) {
         this.invoiceService = invoiceService;
         this.patientRepository = patientRepository;
         this.cost = cost;
