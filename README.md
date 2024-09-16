@@ -20,7 +20,7 @@ The Treatments Service handles the treatment of patients based on the diagnosis 
 
 The Accountancy Service is responsible for generating and managing patient invoices. Once a patient receives treatment, this service creates an invoice reflecting the treatment cost. After payment, the accountant updates the invoice status to "paid." Invoices are stored in a MySQL database.
 
-## Technologies\
+## Technologies
 
 - Java Spring Boot: For building the microservices
 - MySQL/MongoDB: For database management
