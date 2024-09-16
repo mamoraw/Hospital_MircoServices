@@ -26,4 +26,4 @@ The Accountancy Service is responsible for generating and managing patient invoi
 - MySQL/MongoDB: For database management
 - Spring Security: file-based configuration
 - RESTful Communication: Services communicate with each other through REST APIs
-- JUnit and Mockito for testing\
+- JUnit and Mockito for testing
